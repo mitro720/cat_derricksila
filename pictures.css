@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: linear-gradient(-45dey,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+}
+
+.hero{
+    border-bottom: 1px solid blue;
+    padding: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px; 
+
+}
+.h1{
+    font-size: 350%;
+    font-weight: 600;
+
+}
+img{display: block;}
+.mee{ 
+    white-space: nowrap;
+}
+
+body{
+    height: 100vh;
+}
+.profile-pic-figure{
+    width: 35%;
+}
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double red;
+    width: 5cm;
+    height: 5cm;
+    border-radius: 50%;
+    
+}
+.example
+{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+

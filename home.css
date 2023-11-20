@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(93, 42, 138, 0.582);
+  color: white;
+}
+.header {
+  background-color: rgb(113, 48, 170);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 20px 0%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: rgb(20, 20, 20);
+  font-size: 27px;
+  font-weight: 700px;
+  text-decoration: none;
+}
+.navbar a {
+  color: white;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 25px;
+  font-weight: 500;
+  transition: 3s;
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(212, 16, 147);
+}
+.home {
+  display: flex;
+
+  align-items: center;
+  height: 100vh;
+}
+
+.home-content {
+  max-width: 600px;
+}
+.home-content h1 {
+  font-size: 55px;
+  color: rgb(241, 241, 241);
+  font-weight: 500;
+
+  background-color: transparent;
+  margin: 50px;
+  font-weight: 900;
+  font-weight: bolder;
+  margin-left: 3cm;
+}
+.home-content p {
+  color: rgb(235, 230, 230);
+  font-weight: 500;
+  font-size: 40px;
+  font-weight: 800;
+  background-color: transparent;
+
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+.a:link {
+  color: rgb(228, 8, 8);
+  text-decoration: none;
+}
+
+.picture {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.media {
+  padding-right: 5cm;
+  margin-left: 9cm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.picture2 img {
+  margin-left: 7.8cm;
+
+  width: 100px;
+  height: auto;
+  min-width: 100px;
+  width: 8.95cm;
+  height: 8.95m;
+  border: 5px solid rgb(113, 48, 170);
+  border-radius: 50%;
+  margin-left: 10cm;
+}
+.box {
+  border-style: solid;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgb(113, 48, 170);
+  border-color: rgb(113, 48, 170);
+  width: 15cm;
+  height: 2cm;
+  font-size: 20px;
+  margin: auto;
+  font-weight: bold;
+  margin-left: 1.5cm;
+}
+
+a {
+  text-decoration: none;
+}
+.media a i {
+  font-size: 50px;
+}
